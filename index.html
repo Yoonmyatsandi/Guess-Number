@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Playfair+Display+SC:wght@700&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div id="video-container">
+        <video src="./vd/vd1.mp4" id="video" autoplay muted loop></video>
+
+    <div class="container">
+    <h1 class="title gradient ">Guess the number</h1>
+    <h1 class="secretNo gradient ">Secret Number: ?</h1>
+    <input type="number" class="input neon">
+    <button class="btn-19" onclick="check()">
+        <span class="text-container">
+          <span class="text">Check Number</span>
+        </span>
+      </button>
+    <h1 class="hint gradient">Guessing</h1>
+    <h3 class="score gradient">Score : 0</h3>
+    </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
